@@ -22,7 +22,7 @@ dest_folder = os.getcwd()
 cpu_num=1
 
 # Excel file locations and destinations
-file_path = r'C:\Database\James\ValeSA_HoV_V1.20_base_Met.xlsm'
+file_path = r'C:\xxx\xxx\xxx.xlsm'
 _name=file_path.split('\\')[-1].split('.xl')[0]
 base_name ="node"
 
@@ -30,12 +30,12 @@ base_name ="node"
 csv_path = r'C:\Database\James\vars.csv'
 
 # Script with objective function
-script_relative_path = "Optuna_/nodex.py"
+script_relative_path = "xxx/nodex.py"
 script_to_execute=os.path.join(dest_folder,script_relative_path)
 
 # Storage url
-journal_path=r'C:\Database\James\journal.log'
-jounal_lock=r'C:\Database\James\journal.log.lock'
+journal_path=r'C:\xxx\xxx\xx.log'
+jounal_lock=r'C:\xxx\xxx\journal.log.lock'
 
 # Excel mappings
 sheet_name="Solver_Stack"
